@@ -1,0 +1,191 @@
+.aboutMe_section{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.container_rigth{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+.aboutMe_dates{
+  height: 70vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  border: 2px solid rgb(79,143,0);
+}
+.logoMern{
+  width: 20vw;
+  height: auto;
+  border-radius: 1rem;
+}
+.myPicture{
+  border-radius: 50%;
+  margin-top: 1rem;
+  height: 150px;
+  width: 150px;
+  
+}
+.aboutMe_text{
+    height: 100%;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2rem;
+    padding-bottom: 10px;
+}
+.aboutMe_text > p{
+    color: white; 
+    font-family: "Courier";
+    font-size: 1.6rem;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 2s steps(60, start); 
+  }
+  
+  .aboutMe_text > p:nth-child(2){
+    animation: type2 4s steps(60, end);
+  }
+  .aboutMe_text > p:nth-child(3){
+    animation: type3 6s steps(60, end);
+  }
+  .aboutMe_text > p:nth-child(5){
+    animation: type4 8s steps(60, end);
+  }
+  .aboutMe_text > p:nth-child(6){
+    animation: type5 10s steps(60, end);
+  }
+  .aboutMe_text > p:nth-child(7){
+    animation: type6 12s steps(60, end);
+  }
+  .aboutMe_text > p:nth-child(8){
+    animation: type7 14s steps(60, end);
+  }
+  .aboutMe_text > p:nth-child(9){
+    animation: type8 16s steps(60, end);
+  }
+  .aboutMe_text > p:nth-child(10){
+    animation: type9 18s steps(60, end);
+  }
+  .aboutMe_text > p:nth-child(11){
+    animation: type10 20s steps(60, end);
+  }
+ 
+  .aboutMe_text > span{
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type3{
+    0%{width: 0;}
+    66%{width: 0;}
+    100%{ width: 100; } 
+  } 
+   @keyframes type4{
+    0%{width: 0;}
+    75%{width: 0;}
+    100%{ width: 100; }  
+  } 
+
+  @keyframes type5{
+    0%{width: 0;}
+    80%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes type6{
+    0%{width: 0;}
+    83.33%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type7{
+    0%{width: 0;}
+    85.71%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type8{
+    0%{width: 0;}
+    87.5%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type9{
+    0%{width: 0;}
+    88.88%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type10{
+    0%{width: 0;}
+    90%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
+  ::selection{
+    background: black;
+  }
+
+  .color_green{
+    color: rgb(79,143,0);
+  }
+  .color_orange{
+    color: rgb(255,147,0);
+  }
+  .color_blue{
+    color: rgb(0,150,255);
+  }
+  .color_yellow{
+    color: yellow;
+  }
+  hr {
+    border: 0 none rgb(79,143,0);
+    border-top: 1px solid rgb(79,143,0);
+    height: 1px;
+    margin: 5px 0;
+    display: block;
+    clear: both;
+    }
+    .enlaceLinkedin{
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .enlaceLinkedin > img{
+      height: 30px;
+      border-radius: 10px;
+    }
+    .parpadeo{
+      color: white;
+      animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+    }
+    @keyframes parpadeo {  
+      0% { opacity: 1.0; }
+       50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+    }
